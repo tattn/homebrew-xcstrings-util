@@ -1,18 +1,18 @@
 class XcstringsUtil < Formula
   desc "Agent-friendly CLI for Xcode string catalogs"
   homepage "https://github.com/tattn/xcstrings-util"
-  version "0.0.2"
+  version "0.0.3"
 
 
   on_macos do
     on_arm do
-      url "https://github.com/tattn/xcstrings-util/releases/download/0.0.2/xcstrings-util-0.0.2-macos-arm64.tar.gz"
-      sha256 "d66a65b3764bc5e1d3760ac491cc2ca7b6414854653ccfe50e79a5a81d4da5db"
+      url "https://github.com/tattn/xcstrings-util/releases/download/0.0.3/xcstrings-util-0.0.3-macos-arm64.tar.gz"
+      sha256 "21353d5c0fc9030e4024a9554beef0746143a67ce5c44b66ab022d0f53145737"
     end
 
     on_intel do
-      url "https://github.com/tattn/xcstrings-util/releases/download/0.0.2/xcstrings-util-0.0.2-macos-x86_64.tar.gz"
-      sha256 "c2c2b41eff08e0a4ae5e5ddb8f82922fa98e892e8f27271a2458dae0fb868bcc"
+      url "https://github.com/tattn/xcstrings-util/releases/download/0.0.3/xcstrings-util-0.0.3-macos-x86_64.tar.gz"
+      sha256 "3a05c1089a6588edf34f1755dbfe50250ca3296e8078665563104b3ce156cd79"
     end
   end
 
